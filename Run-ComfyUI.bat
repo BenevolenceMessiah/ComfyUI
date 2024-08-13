@@ -70,7 +70,7 @@ echo ---------------------------------------------------------------
 set /P option=Enter your choice:
 if %option% == 1 goto Install
 if %option% == 2 goto Menu3
-if %option% == 2 goto Run
+if %option% == 3 goto Run
 if %option% == C goto End
 if %option% == F goto Fix
 if %option% == U goto Updater
