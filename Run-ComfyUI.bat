@@ -55,10 +55,12 @@ echo ---------------------------------------------------------------
 
 :Menu1
 echo Please choose from the following options:
+echo Note: These options are all case sensitive.
 echo Press Ctrl+c to exit at any time!
 echo ---------------------------------------------------------------
 echo 1 Install
 echo 2 Download (some of the best) image generation AI models!
+echo 3 Run
 echo C) Exit
 echo F) Fix. Run this to fix the program.
 echo U) Update all downloaded models, ComfyUI, and any corresponding dependencies.
@@ -68,6 +70,7 @@ echo ---------------------------------------------------------------
 set /P option=Enter your choice:
 if %option% == 1 goto Install
 if %option% == 2 goto Menu3
+if %option% == 2 goto Run
 if %option% == C goto End
 if %option% == F goto Fix
 if %option% == U goto Updater
