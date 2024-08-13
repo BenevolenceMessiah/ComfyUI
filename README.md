@@ -77,7 +77,11 @@ Ctrl can also be replaced with Cmd instead for macOS users
 
 ## Windows
 
-There is a portable standalone build for Windows that should work for running on Nvidia GPUs or for running on your CPU only on the [releases page](https://github.com/comfyanonymous/ComfyUI/releases).
+- Simply git clone the repo `git clone https://github.com/BenevolenceMessiah/ComfyUI.git`
+- Run `Run-ComfyUI.bat`
+- Follow the onscreen instructions to install the server and corresponding dependencies, update the program (check daily!), and download models (featuring some high end models from [Craig Blackmoore](https://www.cblackmoore.com/)!), launch the server, and optionally listen to music while you wait for things to install/download! 
+
+There is also a portable standalone build for Windows that should work for running on Nvidia GPUs or for running on your CPU only on the [releases page](https://github.com/comfyanonymous/ComfyUI/releases).
 
 ### [Direct link to download](https://github.com/comfyanonymous/ComfyUI/releases/latest/download/ComfyUI_windows_portable_nvidia.7z)
 
