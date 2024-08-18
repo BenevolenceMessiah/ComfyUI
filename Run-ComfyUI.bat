@@ -254,7 +254,8 @@ echo ---------------------------------------------------------------
 pip uninstall torch
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124
 pip install -r requirements.txt
-Fix applied! Run it again!
+echo Fix applied! Run it again!
+echo ---------------------------------------------------------------
 goto Menu1
 
 :Run
